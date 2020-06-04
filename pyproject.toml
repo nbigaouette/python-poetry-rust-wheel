@@ -4,9 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["Nicolas Bigaouette <nbigaouette@gmail.com>"]
 
+build = "build.py"
+include = ["dfrs/*", "dfrs/src/*"]
+
 [tool.poetry.dependencies]
 python = "^3.8"
 pip = "^20.1"
+setuptools-rust = "^0.10.6"
 
 [tool.poetry.dev-dependencies]
 

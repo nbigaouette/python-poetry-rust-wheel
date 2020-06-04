@@ -1,6 +1,6 @@
 from ctypes import CDLL, Structure, c_long
 
-lib = CDLL("target/debug/libdfrs.dylib")
+lib = CDLL("target/release/libdfrs.dylib")
 
 class Point(Structure):
     _fields_ = [
