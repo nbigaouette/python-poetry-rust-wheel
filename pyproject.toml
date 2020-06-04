@@ -6,6 +6,7 @@ authors = ["Nicolas Bigaouette <nbigaouette@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pip = "^20.1"
 
 [tool.poetry.dev-dependencies]
 
